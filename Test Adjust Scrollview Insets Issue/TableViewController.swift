@@ -22,6 +22,10 @@ class TableViewController: UITableViewController {
         tableView.tableHeaderView = searchController.searchBar
     }
 
+    override func viewDidLayoutSubviews() {
+        print("Tableview content inset: \(tableView.contentInset)")
+    }
+
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
