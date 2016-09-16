@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+  var titleString: String?
+  @IBOutlet var titleLabel: UILabel! {
+    didSet {
+      titleLabel.text = titleString
+    }
+  }
 
   override func viewDidLoad() {
     super.viewDidLoad()

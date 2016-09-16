@@ -14,6 +14,7 @@
 		F651084E1D8AC3AD0046FB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F651084D1D8AC3AD0046FB3C /* Assets.xcassets */; };
 		F65108511D8AC3AD0046FB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F651084F1D8AC3AD0046FB3C /* LaunchScreen.storyboard */; };
 		F651085C1D8AC3AD0046FB3C /* Test_Adjust_Scrollview_Insets_IssueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651085B1D8AC3AD0046FB3C /* Test_Adjust_Scrollview_Insets_IssueUITests.swift */; };
+		F65108691D8AC45E0046FB3C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65108681D8AC45E0046FB3C /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F65108571D8AC3AD0046FB3C /* Test Adjust Scrollview Insets IssueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Adjust Scrollview Insets IssueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F651085B1D8AC3AD0046FB3C /* Test_Adjust_Scrollview_Insets_IssueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Adjust_Scrollview_Insets_IssueUITests.swift; sourceTree = "<group>"; };
 		F651085D1D8AC3AD0046FB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F65108681D8AC45E0046FB3C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				F65108431D8AC3AD0046FB3C /* AppDelegate.swift */,
 				F65108451D8AC3AD0046FB3C /* ViewController.swift */,
+				F65108681D8AC45E0046FB3C /* TableViewController.swift */,
 				F65108471D8AC3AD0046FB3C /* Main.storyboard */,
 				F651084D1D8AC3AD0046FB3C /* Assets.xcassets */,
 				F651084F1D8AC3AD0046FB3C /* LaunchScreen.storyboard */,
@@ -203,6 +206,7 @@
 				F651084C1D8AC3AD0046FB3C /* Test_Adjust_Scrollview_Insets_Issue.xcdatamodeld in Sources */,
 				F65108461D8AC3AD0046FB3C /* ViewController.swift in Sources */,
 				F65108441D8AC3AD0046FB3C /* AppDelegate.swift in Sources */,
+				F65108691D8AC45E0046FB3C /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
